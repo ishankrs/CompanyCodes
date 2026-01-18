@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
-import { supabaseAdmin } from '@/lib/supabase-admin';
+import { supabaseAdmin } from '../../../lib/supabase-admin';
 import {
   approveLinkSubmission,
   rejectLinkSubmission,

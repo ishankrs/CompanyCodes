@@ -1,5 +1,5 @@
-import { supabase } from '@/lib/supabase';
-import CompanySearch from '@/components/CompanySearch';
+import { supabase } from '../lib/supabase';
+import CompanySearch from '../components/CompanySearch';
 
 export default async function HomePage() {
   const { data, error } = await supabase

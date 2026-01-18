@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { supabase } from '@/lib/supabase';
-import CompanyAutocomplete from '@/components/CompanyAutocomplete';
+import { supabase } from '../../lib/supabase';
+import CompanyAutocomplete from '../../components/CompanyAutocomplete';
 
 /* ---------- helpers ---------- */
 async function getIpHash(): Promise<string> {
